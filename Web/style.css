@@ -1,0 +1,25 @@
+table, th, td{
+    border: 1px solid black;
+}
+th {
+    font-weight: normal;
+}
+.outer-content{
+    background-color: pink;
+    margin: 20px;
+    width: 75%;
+    height: 50px;
+}
+.inner-content{
+    background-color:lightblue;
+    width: 75%;
+    height: 50%;
+    top: 25%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.form-box{
+    border: 1px solid black;
+    width:25%;
+}
