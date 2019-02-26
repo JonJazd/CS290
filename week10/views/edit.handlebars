@@ -1,0 +1,17 @@
+<form method="get" action="/save">
+From here you can edit the values.</br>
+        Name:
+        <input type="text" name="name" value={{name}}></input></br>
+        Reps:
+        <input type="number" name="reps" value={{reps}}></input></br>
+        Weight:
+        <input type="number" name="weight" value={{weight}}></input></br>
+        Date:
+        <input type="date" name="date" value={{date}}></input></br>
+        Pounds or Kgs:</br>
+        <input type="radio" name="unit" value="1" checked="checked">Pounds</input></br>
+        <input type="radio" name="unit" value="0">Kgs</input></br>
+        <input type="hidden" name="id" value={{id}}>
+        
+        <button type="submit">Submit</button></br>
+</form>

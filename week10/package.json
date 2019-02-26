@@ -1,0 +1,13 @@
+{
+  "name": "workouts",
+  "main": "script.js",
+  "scripts": {
+    "start": "node scripts.js"
+  },
+  "dependencies": {
+    "express": "",
+    "express-handlebars": "",
+    "body-parser" :"",
+    "mysql": "^2.13.0"
+  }
+}
