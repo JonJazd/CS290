@@ -1,0 +1,113 @@
+<html>
+<script src="./Heroes.js"></script>
+
+<head>
+    <link rel="stylesheet" href="./Heroes.css">
+    <title>First round lane simulator</title>
+</head>
+
+<body>
+    <table width=100% height=100%>
+        <tr height=45%>
+            <td>
+                <ul class="menu">
+                <li><a href="main.html">Go back</a></li>
+                <li><a href="popular.html">Most popular heroes</a></li>
+                <li><a href="links.html">Links to popular sites</a></li>
+            </ul>
+        </br>
+                <select name="hero" id="hero">
+                    <option value="N/A">Hero Select</option>
+                    <option value=1 class="red">Axe</option>
+                    <option value=2 class="red">Beastmaster</option>
+                    <option value=3 class="red">Bristleback</option>
+                    <option value=4 class="red">Centaur Warrunner</option>
+                    <option value=5 class="red">Keefe the Bold</option>
+                    <option value=6 class="red">Legion Commander</option>
+                    <option value=7 class="red">Mazzie</option>
+                    <option value=8 class="red">Pugna</option>
+                    <option value=9 class="red">Sven</option>
+                    <option value=10 class="red">Tidehunter</option>
+                    <option value=11 class="red">Timbersaw</option>
+                    <option value=12 class="red">Ursa</option>
+                    <option value=13 class="blue">Crystal Maiden</option>
+                    <option value=14 class="blue">Earthshaker</option>
+                    <option value=15 class="blue">J'muy</option>
+                    <option value=16 class="blue">Kanna</option>
+                    <option value=17 class="blue">Luna</option>
+                    <option value=18 class="blue">Meepo</option>
+                    <option value=19 class="blue">Ogre Magi</option>
+                    <option value=20 class="blue">Outworld Decorator</option>
+                    <option value=21 class="blue">Prellex</option>
+                    <option value=22 class="blue">Skywrath</option>
+                    <option value=23 class="blue">Venomancer</option>
+                    <option value=24 class="blue">Zeus</option>
+                    <option value=25 class="black">Bloodseeker</option>
+                    <option value=26 class="black">Bounty Hunter</option>
+                    <option value=27 class="black">Debbi</option>
+                    <option value=28 class="black">Lich</option>
+                    <option value=29 class="black">Lion</option>
+                    <option value=30 class="black">Necrophos</option>
+                    <option value=31 class="black">Phantom Assassin</option>
+                    <option value=32 class="black">Sniper</option>
+                    <option value=33 class="black">Sorla Khan</option>
+                    <option value=34 class="black">Storm Spirit</option>
+                    <option value=35 class="black">Winter Wyvern</option>
+                    <option value=36 class="green">Abaddon</option>
+                    <option value=37 class="green">Chen</option>
+                    <option value=38 class="green">Dark Seer</option>
+                    <option value=39 class="green">Drow Ranger</option>
+                    <option value=40 class="green">Enchantress</option>
+                    <option value=41 class="green">Fahrvhan</option>
+                    <option value=42 class="green">Lycan</option>
+                    <option value=43 class="green">Magnus</option>
+                    <option value=44 class="green">Omniknight</option>
+                    <option value=45 class="green">Rix</option>
+                    <option value=46 class="green">Treant Protector</option>
+                    <option value=47 class="green">Viper</option>
+                </select>
+                <button type=submit id="Gobutton" onclick="go()">Go!</button>
+            </td>
+            <td class="lane">
+                <table width=100% height=100%>
+                    <tr>
+                        <td id="first enemy" width=30%>
+                            
+                        </td>
+                        <td id="second enemy" width=30%>
+                            
+                        </td>
+                        <td id="third enemy" width=30%>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr height=7%>
+            <td>All images owned by Valve Corporation.</td>
+        </tr>
+        <tr height=45%>
+            <td id="scroll">Your Hero spawns with X creeps.</br>
+                The Enemy spawns with Y creeps.</br>
+            </td>
+            <td class="lane">
+                <table width=100% height=100%>
+                    <tr>
+                        <td id="first ally" width=30%>
+                            
+                        </td>
+                        <td id="second ally" width=30%>
+                            
+                        </td>
+                        <td id="third ally" width=30%>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

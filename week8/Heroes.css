@@ -1,0 +1,101 @@
+.red{
+    color: #B60C1D;
+}
+.black{
+    color:#414841;
+}
+.blue{
+    color:#0E54AF;
+}
+.green{
+    color: #0D790D;
+}
+option, select{
+    font-family: "Verdana";
+    font-size: 15pt;
+}
+/*td{
+    border: 1px solid black;
+}*/
+#scroll{
+    vertical-align: text-top;
+    font-family: Verdana;
+}
+#Gobutton{
+    font-size: 14pt;
+}
+.lane{
+    border:2px solid black;
+    width: 70%;
+}
+body{
+    background-image: url("./ArtifactDB-master/assets/text_background.jpg");
+    color:whitesmoke;
+}
+image{
+    height: 50%;
+    width: 50%;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    height: auto;
+    background-color: #f1f1f1;
+    margin-top:-50%;
+}
+li a {
+    display: block;
+    width: auto;
+    color: black;
+    padding: 8px 16px;
+    border-bottom: solid black 1px;
+}
+.pictures-wrapper{
+    align-content: center;
+    width: auto;
+}
+.pictures{
+    align-content: center;
+    margin-left:35%;
+}
+.radios li{
+    align-content: center;
+    margin-left:35%;
+    cursor: pointer;
+    list-style: none;
+    border: 2px solid black;
+    width: 15px;
+    height:15px;
+    background-color: #0E54AF;
+    border-radius: 15px;
+}
+.radios li:hover{
+    background-color:#0D790D;
+}
+.pictures td{
+    width:10px;
+}
+.banner{
+    padding-left:5%;
+}
+.scroll {
+    height:200px;
+    width:auto;
+    overflow: scroll;
+    background-color: #eddd6a;
+    color:black;
+    border: 3px solid #0D790D;
+}
+.margintop0{
+    margin-top: 0px;
+}
+.herobox{
+    background-color: #eddd6a;
+    border: 3px solid #0D790D;
+    width:125px;
+}
+.herotable{
+    margin-left: 25%;
+}
